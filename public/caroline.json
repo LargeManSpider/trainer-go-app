@@ -1,21 +1,128 @@
 {
   "trainerName": "Sam Bixler",
   "clientName": "Caroline",
-  "programName": "Equestrian Athlete • Phase 1",
+  "programName": "Equestrian Athlete • 12-Week Roadmap",
   "program": [
     {
-      "id": "day1",
-      "title": "Day 1: Lower Body & Stability",
-      "sub": "Leg Endurance & Balance",
+      "id": "daily_prep",
+      "title": "Daily Barn Routine & Micro-Drills",
+      "sub": "Prep & Recovery for Every Ride",
+      "color": "bg-emerald-600",
+      "gradient": "from-emerald-600 to-teal-500",
+      "icon": "functional",
+      "exercises": [
+        {
+          "id": "prep_1",
+          "name": "Leg Swings (Front/Back & Lateral)",
+          "video": "https://www.youtube.com/watch?v=naW8u72lOzI",
+          "isProgrammed": true,
+          "note": "Dynamic stretch for hip flexors and hamstrings. Keep torso upright and swing smooth. Preps the hips for lateral work and mounting.",
+          "sets": [{ "id": 1, "reps": 10, "completed": false }]
+        },
+        {
+          "id": "prep_2",
+          "name": "Hip Circles (Standing Hip CARs)",
+          "video": "https://www.youtube.com/watch?v=hRMrq6G81p8",
+          "isProgrammed": true,
+          "note": "Imagine drawing a circle with your knee. Warms up the joint and identifies tight spots before you get in the saddle.",
+          "sets": [{ "id": 2, "reps": 5, "completed": false }]
+        },
+        {
+          "id": "prep_3",
+          "name": "Walking Lunges with Twist",
+          "video": "https://www.youtube.com/watch?v=1F568E9pP7U",
+          "isProgrammed": true,
+          "note": "Twist toward the front leg. Stretches the hip flexor and warms up glutes/quads for better stability in the two-point.",
+          "sets": [{ "id": 3, "reps": 8, "completed": false }]
+        },
+        {
+          "id": "prep_4",
+          "name": "Lateral Lunge Stretch",
+          "video": "https://www.youtube.com/watch?v=4NlJdSzHeUg",
+          "isProgrammed": true,
+          "note": "Sit back into the hip. Opens the groin to help you sit deep and move your legs independently of your seat.",
+          "sets": [{ "id": 4, "reps": 10, "completed": false }]
+        },
+        {
+          "id": "prep_5",
+          "name": "Open & Close the Gate",
+          "video": "https://www.youtube.com/shorts/TIcsa6jjV_Q",
+          "isProgrammed": true,
+          "note": "Mimics the motion of mounting. Preps the thigh to move away from and back to the saddle with control.",
+          "sets": [{ "id": 5, "reps": 10, "completed": false }]
+        },
+        {
+          "id": "prep_6",
+          "name": "Arm Circles & Trunk Rotations",
+          "video": "https://www.youtube.com/watch?v=uQd1RVewoD4",
+          "isProgrammed": true,
+          "note": "Loosen shoulders for clearer rein aids. A mobile upper back allows you to follow the horse's motion better.",
+          "sets": [{ "id": 6, "reps": 10, "completed": false }]
+        },
+        {
+          "id": "micro_1",
+          "name": "ON-HORSE: Thigh Lifts",
+          "video": "https://www.youtube.com/watch?v=FtQ2GRvidSA",
+          "isProgrammed": true,
+          "note": "At the walk: Lift thighs off the saddle. This serves as a reminder to balance on your seat bones rather than gripping.",
+          "sets": [{ "id": 7, "reps": 5, "completed": false }]
+        },
+        {
+          "id": "micro_2",
+          "name": "ON-HORSE: Pelvic Clocks",
+          "video": "https://www.youtube.com/watch?v=3b92BBarscQ",
+          "isProgrammed": true,
+          "note": "Tilt hips to find mobility in the seat. Improves your ability to absorb the horse's rhythm through your core.",
+          "sets": [{ "id": 8, "reps": 4, "completed": false }]
+        },
+        {
+          "id": "micro_3",
+          "name": "ON-HORSE: Posting/Two-Point Transitions",
+          "video": "https://www.youtube.com/watch?v=Yx-UqNCglcA",
+          "isProgrammed": true,
+          "note": "Transitions at the trot. Builds leg endurance and helps you maintain balance over jumps.",
+          "sets": [{ "id": 9, "reps": 5, "completed": false }]
+        },
+        {
+          "id": "cool_1",
+          "name": "Hip Flexor Stretch (Kneeling)",
+          "video": "https://www.youtube.com/watch?v=mzPvzMivukw",
+          "isProgrammed": true,
+          "note": "Tuck tailbone and shift forward. Prevents that 'locked hip' feeling after a long day of riding.",
+          "sets": [{ "id": 10, "weight": 30, "reps": 1, "completed": false }]
+        },
+        {
+          "id": "cool_2",
+          "name": "Figure-4 Glute Stretch",
+          "video": "https://www.youtube.com/watch?v=2VE_NLcNMvQ",
+          "isProgrammed": true,
+          "note": "Targets deep hip rotators that get tight from the sitting trot. Keep the foot flexed to protect your knee.",
+          "sets": [{ "id": 11, "weight": 30, "reps": 1, "completed": false }]
+        },
+        {
+          "id": "cool_3",
+          "name": "Chest & Shoulder Opener",
+          "video": "https://www.youtube.com/watch?v=6P3Mev4Vp2E",
+          "isProgrammed": true,
+          "note": "Counteracts rounding during riding. Improves your posture and makes your rein contact more consistent.",
+          "sets": [{ "id": 12, "weight": 30, "reps": 1, "completed": false }]
+        }
+      ]
+    },
+    {
+      "id": "p1_a",
+      "title": "Phase 1: Workout A (Weeks 1-4)",
+      "sub": "Foundation & Posture",
       "color": "bg-orange-500",
       "gradient": "from-orange-500 to-red-400",
       "icon": "legs",
       "exercises": [
         {
-          "id": "d1_1",
-          "name": "Goblet Squats",
+          "id": "p1a_1",
+          "name": "Goblet Squat",
+          "video": "https://www.youtube.com/shorts/7-80HiXX1K8",
           "isProgrammed": true,
-          "note": "Weight in heels, knees out, chest up (like sitting in saddle)[cite: 32].",
+          "note": "CUE: Weight in heels, knees out. Develops leg strength for a secure two-point and landing jumps.",
           "sets": [
             { "id": 101, "weight": 0, "reps": 12, "completed": false },
             { "id": 102, "weight": 0, "reps": 12, "completed": false },
@@ -23,107 +130,114 @@
           ]
         },
         {
-          "id": "d1_2",
-          "name": "Lateral Lunges",
+          "id": "p1a_2",
+          "name": "Romanian Deadlift (RDL)",
+          "video": "https://www.youtube.com/watch?v=IJdUtnxAmNo",
           "isProgrammed": true,
-          "note": "Sit back into hip, keep other leg straight. Improves adductor mobility[cite: 35].",
+          "note": "CUE: Hinge from hips. Strengthens glutes and back to keep you from tipping forward if the horse pulls.",
           "sets": [
             { "id": 104, "weight": 0, "reps": 10, "completed": false },
-            { "id": 105, "weight": 0, "reps": 10, "completed": false }
+            { "id": 105, "weight": 0, "reps": 10, "completed": false },
+            { "id": 106, "weight": 0, "reps": 10, "completed": false }
           ]
         },
         {
-          "id": "d1_3",
-          "name": "Copenhagen Plank",
+          "id": "p1a_3",
+          "name": "Copenhagen Plank (Bent Knee)",
+          "video": "https://www.youtube.com/shorts/5paDavNMjGM",
           "isProgrammed": true,
-          "note": "Hips up, squeeze inner thighs. Envision steady leg on saddle without gripping[cite: 36].",
+          "note": "CUE: Squeeze inner thighs. Drastically improves groin resilience for a snug contact without 'gripping'.",
           "sets": [
-            { "id": 106, "weight": 0, "reps": 30, "completed": false },
-            { "id": 107, "weight": 0, "reps": 30, "completed": false }
+            { "id": 107, "weight": 20, "reps": 1, "completed": false },
+            { "id": 108, "weight": 20, "reps": 1, "completed": false }
           ]
         }
       ]
     },
     {
-      "id": "day2",
-      "title": "Day 2: Posterior Chain & Posture",
-      "sub": "Seat Aids & Alignment",
-      "color": "bg-blue-500",
-      "gradient": "from-blue-500 to-indigo-400",
+      "id": "p2_a",
+      "title": "Phase 2: Workout A (Weeks 5-8)",
+      "sub": "Power & Unilateral Stability",
+      "color": "bg-blue-600",
+      "gradient": "from-blue-600 to-indigo-500",
       "icon": "push",
       "exercises": [
         {
-          "id": "d2_1",
-          "name": "RDLs (Romanian Deadlift)",
+          "id": "p2a_1",
+          "name": "Barbell Back Squat",
+          "video": "https://www.youtube.com/watch?v=T_t85kQEDWk",
           "isProgrammed": true,
-          "note": "Hinge from hips, neutral spine. Feel glutes engage like using seat aids[cite: 33].",
+          "note": "Stronger quads allow you to maintain an upright posture even when the horse's motion is powerful.",
           "sets": [
-            { "id": 201, "weight": 0, "reps": 10, "completed": false },
-            { "id": 202, "weight": 0, "reps": 10, "completed": false },
-            { "id": 203, "weight": 0, "reps": 10, "completed": false }
+            { "id": 201, "weight": 0, "reps": 8, "completed": false },
+            { "id": 202, "weight": 0, "reps": 8, "completed": false },
+            { "id": 203, "weight": 0, "reps": 8, "completed": false }
           ]
         },
         {
-          "id": "d2_2",
-          "name": "Seated Rows",
+          "id": "p2a_2",
+          "name": "Single-Leg RDL",
+          "video": "https://www.youtube.com/shorts/9JtRH_qZa-w",
           "isProgrammed": true,
-          "note": "Squeeze shoulder blades. Imagine carrying hands correctly with no rounding[cite: 38].",
+          "note": "Challenges ankle and hip stability—similar to balancing in stirrups independently.",
           "sets": [
-            { "id": 204, "weight": 0, "reps": 12, "completed": false },
-            { "id": 205, "weight": 0, "reps": 12, "completed": false }
+            { "id": 204, "weight": 0, "reps": 8, "completed": false },
+            { "id": 205, "weight": 0, "reps": 8, "completed": false }
           ]
         },
         {
-          "id": "d2_3",
-          "name": "Bird-Dog",
+          "id": "p2a_3",
+          "name": "Box Jumps",
+          "video": "https://www.youtube.com/shorts/Z9Vw6MxOHP8",
           "isProgrammed": true,
-          "note": "Draw belly in, no hip rotation. Mirrors a still torso while riding[cite: 37].",
+          "note": "CUE: Soft landing. Trains fast-twitch fibers for quick balance adjustments after a fence.",
           "sets": [
-            { "id": 206, "weight": 0, "reps": 15, "completed": false },
-            { "id": 207, "weight": 0, "reps": 15, "completed": false }
+            { "id": 206, "weight": 0, "reps": 5, "completed": false },
+            { "id": 207, "weight": 0, "reps": 5, "completed": false }
           ]
         }
       ]
     },
     {
-      "id": "day3",
-      "title": "Day 3: Power & Conditioning",
-      "sub": "Stamina for the Course",
-      "color": "bg-red-500",
-      "gradient": "from-red-500 to-orange-400",
-      "icon": "cardio",
+      "id": "p3_a",
+      "title": "Phase 3: Workout A (Weeks 9-12)",
+      "sub": "Max Performance & Control",
+      "color": "bg-red-600",
+      "gradient": "from-red-600 to-rose-500",
+      "icon": "functional",
       "exercises": [
         {
-          "id": "d3_1",
-          "name": "Kettlebell Swings",
+          "id": "p3a_1",
+          "name": "Split Squat Jumps",
+          "video": "https://www.youtube.com/watch?v=G-bxQY57mKc",
           "isProgrammed": true,
-          "note": "Explode from hips. Helps with quick corrections and jump efforts[cite: 39].",
+          "note": "Explosive intent. Develops the coordination to quickly stabilize your position after dynamic movements.",
           "sets": [
-            { "id": 301, "weight": 0, "reps": 15, "completed": false },
-            { "id": 302, "weight": 0, "reps": 15, "completed": false },
-            { "id": 303, "weight": 0, "reps": 15, "completed": false }
+            { "id": 301, "weight": 0, "reps": 5, "completed": false },
+            { "id": 302, "weight": 0, "reps": 5, "completed": false }
           ]
         },
         {
-          "id": "d3_2",
-          "name": "Reverse Lunges",
+          "id": "p3a_2",
+          "name": "Turkish Get-Up",
+          "video": "https://www.youtube.com/watch?v=AhRqIHNLWV8",
           "isProgrammed": true,
-          "note": "Control the descent. Improves symmetry of leg aids[cite: 34].",
+          "note": "Integrates core, shoulder, and hip stability. Teaches you to move smoothly while staying braced.",
           "sets": [
-            { "id": 304, "weight": 0, "reps": 10, "completed": false },
-            { "id": 305, "weight": 0, "reps": 10, "completed": false }
+            { "id": 303, "weight": 0, "reps": 3, "completed": false },
+            { "id": 304, "weight": 0, "reps": 3, "completed": false }
           ]
         },
         {
-          "id": "d3_3",
-          "type": "cardio",
-          "name": "Interval Conditioning",
+          "id": "p3a_3",
+          "name": "Stirrup Stand (BOSU Plank)",
+          "video": "https://www.youtube.com/watch?v=JofLgV7ljcA",
           "isProgrammed": true,
-          "note": "Push hard then recover. Trains you to handle a course and recover quickly[cite: 41].",
-          "distance": 0,
-          "time": 15,
-          "unit": "intervals",
-          "completed": false
+          "note": "Forces core and ankles to stabilize in an unstable stance, mimicking the stirrup experience.",
+          "sets": [
+            { "id": 305, "weight": 30, "reps": 1, "completed": false },
+            { "id": 306, "weight": 30, "reps": 1, "completed": false }
+          ]
         }
       ]
     }
