@@ -1,26 +1,129 @@
 {
   "trainerName": "Sam Bixler",
   "clientName": "Caroline",
-  "programName": "Winter Strength • Phase 1",
+  "programName": "Equestrian Athlete • Phase 1",
   "program": [
     {
       "id": "day1",
-      "title": "Day 1: Lower Body",
-      "sub": "Squats & Lunges",
+      "title": "Day 1: Lower Body & Stability",
+      "sub": "Leg Endurance & Balance",
       "color": "bg-orange-500",
       "gradient": "from-orange-500 to-red-400",
-      "icon": "legs", 
+      "icon": "legs",
       "exercises": [
         {
           "id": "d1_1",
           "name": "Goblet Squats",
-          "video": "https://www.youtube.com/shorts/7Ox3XID6ZJg",
           "isProgrammed": true,
-          "note": "Deep stretch at bottom",
+          "note": "Weight in heels, knees out, chest up (like sitting in saddle)[cite: 32].",
           "sets": [
             { "id": 101, "weight": 0, "reps": 12, "completed": false },
-            { "id": 102, "weight": 0, "reps": 12, "completed": false }
+            { "id": 102, "weight": 0, "reps": 12, "completed": false },
+            { "id": 103, "weight": 0, "reps": 12, "completed": false }
           ]
+        },
+        {
+          "id": "d1_2",
+          "name": "Lateral Lunges",
+          "isProgrammed": true,
+          "note": "Sit back into hip, keep other leg straight. Improves adductor mobility[cite: 35].",
+          "sets": [
+            { "id": 104, "weight": 0, "reps": 10, "completed": false },
+            { "id": 105, "weight": 0, "reps": 10, "completed": false }
+          ]
+        },
+        {
+          "id": "d1_3",
+          "name": "Copenhagen Plank",
+          "isProgrammed": true,
+          "note": "Hips up, squeeze inner thighs. Envision steady leg on saddle without gripping[cite: 36].",
+          "sets": [
+            { "id": 106, "weight": 0, "reps": 30, "completed": false },
+            { "id": 107, "weight": 0, "reps": 30, "completed": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "title": "Day 2: Posterior Chain & Posture",
+      "sub": "Seat Aids & Alignment",
+      "color": "bg-blue-500",
+      "gradient": "from-blue-500 to-indigo-400",
+      "icon": "push",
+      "exercises": [
+        {
+          "id": "d2_1",
+          "name": "RDLs (Romanian Deadlift)",
+          "isProgrammed": true,
+          "note": "Hinge from hips, neutral spine. Feel glutes engage like using seat aids[cite: 33].",
+          "sets": [
+            { "id": 201, "weight": 0, "reps": 10, "completed": false },
+            { "id": 202, "weight": 0, "reps": 10, "completed": false },
+            { "id": 203, "weight": 0, "reps": 10, "completed": false }
+          ]
+        },
+        {
+          "id": "d2_2",
+          "name": "Seated Rows",
+          "isProgrammed": true,
+          "note": "Squeeze shoulder blades. Imagine carrying hands correctly with no rounding[cite: 38].",
+          "sets": [
+            { "id": 204, "weight": 0, "reps": 12, "completed": false },
+            { "id": 205, "weight": 0, "reps": 12, "completed": false }
+          ]
+        },
+        {
+          "id": "d2_3",
+          "name": "Bird-Dog",
+          "isProgrammed": true,
+          "note": "Draw belly in, no hip rotation. Mirrors a still torso while riding[cite: 37].",
+          "sets": [
+            { "id": 206, "weight": 0, "reps": 15, "completed": false },
+            { "id": 207, "weight": 0, "reps": 15, "completed": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "title": "Day 3: Power & Conditioning",
+      "sub": "Stamina for the Course",
+      "color": "bg-red-500",
+      "gradient": "from-red-500 to-orange-400",
+      "icon": "cardio",
+      "exercises": [
+        {
+          "id": "d3_1",
+          "name": "Kettlebell Swings",
+          "isProgrammed": true,
+          "note": "Explode from hips. Helps with quick corrections and jump efforts[cite: 39].",
+          "sets": [
+            { "id": 301, "weight": 0, "reps": 15, "completed": false },
+            { "id": 302, "weight": 0, "reps": 15, "completed": false },
+            { "id": 303, "weight": 0, "reps": 15, "completed": false }
+          ]
+        },
+        {
+          "id": "d3_2",
+          "name": "Reverse Lunges",
+          "isProgrammed": true,
+          "note": "Control the descent. Improves symmetry of leg aids[cite: 34].",
+          "sets": [
+            { "id": 304, "weight": 0, "reps": 10, "completed": false },
+            { "id": 305, "weight": 0, "reps": 10, "completed": false }
+          ]
+        },
+        {
+          "id": "d3_3",
+          "type": "cardio",
+          "name": "Interval Conditioning",
+          "isProgrammed": true,
+          "note": "Push hard then recover. Trains you to handle a course and recover quickly[cite: 41].",
+          "distance": 0,
+          "time": 15,
+          "unit": "intervals",
+          "completed": false
         }
       ]
     }
