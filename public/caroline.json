@@ -1,0 +1,28 @@
+{
+  "trainerName": "Sam Bixler",
+  "clientName": "Caroline",
+  "programName": "Winter Strength • Phase 1",
+  "program": [
+    {
+      "id": "day1",
+      "title": "Day 1: Lower Body",
+      "sub": "Squats & Lunges",
+      "color": "bg-orange-500",
+      "gradient": "from-orange-500 to-red-400",
+      "icon": "legs", 
+      "exercises": [
+        {
+          "id": "d1_1",
+          "name": "Goblet Squats",
+          "video": "https://youtube.com",
+          "isProgrammed": true,
+          "note": "Deep stretch at bottom",
+          "sets": [
+            { "id": 101, "weight": 0, "reps": 12, "completed": false },
+            { "id": 102, "weight": 0, "reps": 12, "completed": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
