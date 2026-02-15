@@ -27,7 +27,7 @@
     },
     {
       "id": "p1_a",
-      "title": "Phase 1: Workout A (Weeks 1-4)",
+      "title": "Phase 1: Workout A",
       "sub": "Foundation & Mobility",
       "color": "bg-orange-500",
       "gradient": "from-orange-500 to-red-400",
@@ -47,7 +47,7 @@
     },
     {
       "id": "p1_b",
-      "title": "Phase 1: Workout B (Weeks 1-4)",
+      "title": "Phase 1: Workout B",
       "sub": "Support & Unilateral Strength",
       "color": "bg-orange-400",
       "gradient": "from-orange-400 to-amber-500",
@@ -63,7 +63,7 @@
     },
     {
       "id": "p2_a",
-      "title": "Phase 2: Workout A (Weeks 5-8)",
+      "title": "Phase 2: Workout A",
       "sub": "Strength Build & Explosion",
       "color": "bg-blue-600",
       "gradient": "from-blue-600 to-indigo-500",
@@ -79,7 +79,7 @@
     },
     {
       "id": "p2_b",
-      "title": "Phase 2: Workout B (Weeks 5-8)",
+      "title": "Phase 2: Workout B",
       "sub": "Peak Stability & Core",
       "color": "bg-blue-500",
       "gradient": "from-blue-500 to-cyan-400",
@@ -96,7 +96,7 @@
     },
     {
       "id": "p3_a",
-      "title": "Phase 3: Workout A (Weeks 9-12)",
+      "title": "Phase 3: Workout A",
       "sub": "Power & Specificity",
       "color": "bg-red-600",
       "gradient": "from-red-600 to-rose-500",
